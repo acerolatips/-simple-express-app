@@ -5,8 +5,8 @@ const port = 3000;
 
 app.use(logger('tiny'))
 app.get('/', (req, res) => {
-  res.send('Hello World!');
-  console.log("Hello World!");
+  res.send('Hello App Runner!');
+  console.log("Hello App Runner!");
 });
 
 app.listen(port, () => {
